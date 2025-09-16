@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Personal | Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>MiPortfolio</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#educacion">Educación</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Bienvenido a Mi Portfolio</h1>
+            <p>Explora mi trayectoria educativa, proyectos y contáctame para colaboraciones</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Projects Section -->
+        <section id="proyectos">
+            <div class="section-title">
+                <h2>Mis Proyectos</h2>
+                <p>Algunos de mis trabajos y proyectos destacados</p>
+            </div>
+            
+            <div class="links-grid">
+                <div class="link-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Proyectos en GitHub</h3>
+                    <a href="https://github.com/luisvv156" class="btn" target="_blank">Explorar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Section -->
+        <section>
+            <div class="section-title">
+            <div class="image-container">
+                <img src="img/AAAA.jpeg" alt="Espacio de trabajo creativo">
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="educacion">
+            <div class="section-title">
+                <h2>Historial Educativo</h2>
+                <p>Mi formación académica a lo largo de los años</p>
+            </div>
+            
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Escuela</th>
+                            <th>Periodo</th>
+                            <th>Año de Egreso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Escuela Primaria Independecia</td>
+                            <td>2009-2015</td>
+                            <td>2015</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Secundaria General #5</td>
+                            <td>2015-2018</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>CBTIS 85</td>
+                            <td>2018-2020</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Instituto Tecnologico Superior de Coatzacoalcos</td>
+                            <td>2021-2026</td>
+                            <td>2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section>
+            <div class="section-title">
+                <h2>Recursos de Desarrollo Web</h2>
+                <p>Documentación y recursos útiles para desarrolladores</p>
+            </div>
+            
+            <div class="frame-container">
+                <iframe src="https://repositorio.continental.edu.pe/handle/20.500.12394/17168?utm_source=chatgpt.com" title="Recursos de Desarrollo Web"></iframe>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto">
+            <div class="section-title">
+                <h2>Formulario de Contacto</h2>
+                <p>Ponte en contacto conmigo para cualquier consulta o colaboración</p>
+            </div>
+            
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="escolaridad">Escolaridad:</label>
+                        <select id="escolaridad" name="escolaridad" required>
+                            <option value="">Seleccione una opción</option>
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                            <option value="preparatoria">Preparatoria</option>
+                            <option value="universidad">Universidad</option>
+                            <option value="posgrado">Posgrado</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Sexo:</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                                <label for="masculino">Masculino</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="femenino" name="sexo" value="femenino">
+                                <label for="femenino">Femenino</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="otro" name="sexo" value="otro">
+                                <label for="otro">Otro</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre Mí</h3>
+                    <p>Estudiante y desarrollador en formación con interés en crear soluciones web innovadoras.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="Correo electronico"></i> Isic22.lvegav@itesco.edu.mx</p>
+                    <p><i class="telefono"></i> +52 9211243881</p>
+                    <p><i class="Ciudad"></i> Coatzacoalcos, Ver</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mi Portfolio Personal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/main.js"></script>
+</body>
+</html>
